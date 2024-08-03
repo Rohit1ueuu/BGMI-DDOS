@@ -6,10 +6,10 @@ import os
 os.system("chmod +x *")
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6116358973:AAHmZclg7OVPvpaBZCcHllkpD9ImGMqRV4M')
+bot = telebot.TeleBot('7419595455:AAGZstA7H7FZakPGw9gtVbF9THWbI3bqZYQ')
 
 # Admin user IDs
-admin_id = ["1967548493"]
+admin_id = ["907345225"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -302,14 +302,14 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip :
--> Attack Time : 200 (S)
+-> Attack Time : 500 (S)
 > After Attack Limit : 2 Min
--> Concurrents Attack : 300
+-> Concurrents Attack : 500
 
 Pr-ice List:
-Day-->150 Rs
-Week-->900 Rs
-Month-->1600 Rs
+Day-->50 Rs
+Week-->300 Rs
+Month-->1000 Rs
 
 '''
     bot.reply_to(message, response)
